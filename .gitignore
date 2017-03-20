@@ -1,0 +1,11 @@
+.vscode/
+hooks/
+lib/
+node_modules/
+platforms/
+typings/
+.baseDir.ts
+.tscache
+
+app/**/*.js
+app/**/*.map
