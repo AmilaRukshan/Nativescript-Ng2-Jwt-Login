@@ -1,39 +1,58 @@
 {
-  "description": "NativeScript Application",
-  "license": "SEE LICENSE IN <your-license-filename>",
-  "readme": "NativeScript Application",
-  "repository": "<fill-your-repository-here>",
-  "nativescript": {
-    "id": "org.nativescript.NativescriptNg2JwtLogin",
-    "tns-android": {
-      "version": "2.5.0"
+    "name": "nativescript-ng2-jwt-login",
+    "version": "0.1",
+    "description": "Nativescript Authentication using angular2-jwt.",
+    "license": "SEE LICENSE IN LICENSE File",
+    "author": "Amila Rukshan <amilarukshan11@gmail.com>",
+    "readme": "NativeScript Application",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AmilaRukshan/Nativescript-Ng2-Jwt-Login"
+    },
+    "bugs": {
+        "url": "https://github.com/AmilaRukshan/Nativescript-Ng2-Jwt-Login/issues"
+    },
+    "nativescript": {
+        "id": "org.nativescript.NativescriptNg2JwtLogin",
+        "tns-android": {
+            "version": "2.5.0"
+        }
+    },
+    "keywords": [
+        "nativescript",
+        "authentication",
+        "jwt-authentication",
+        "jwt",
+        "angular2",
+        "angular2-jwt",
+        "sample-app",
+        "jwt-auth"
+    ],
+    "dependencies": {
+        "@angular/common": "2.4.3",
+        "@angular/compiler": "2.4.3",
+        "@angular/core": "2.4.3",
+        "@angular/forms": "2.4.3",
+        "@angular/http": "2.4.3",
+        "@angular/platform-browser": "2.4.3",
+        "@angular/platform-browser-dynamic": "2.4.3",
+        "@angular/router": "3.4.3",
+        "angular2-jwt": "^0.1.28",
+        "nativescript-angular": "1.4.0",
+        "nativescript-localstorage": "^1.1.0",
+        "nativescript-theme-core": "~1.0.2",
+        "reflect-metadata": "~0.1.8",
+        "rxjs": "~5.0.1",
+        "tns-core-modules": "2.5.0"
+    },
+    "devDependencies": {
+        "babel-traverse": "6.4.5",
+        "babel-types": "6.4.5",
+        "babylon": "6.4.5",
+        "lazy": "1.0.11",
+        "nativescript-dev-android-snapshot": "^0.*.*",
+        "nativescript-dev-typescript": "^0.3.5",
+        "typescript": "~2.1.0",
+        "zone.js": "~0.7.2"
     }
-  },
-  "dependencies": {
-    "@angular/common": "2.4.3",
-    "@angular/compiler": "2.4.3",
-    "@angular/core": "2.4.3",
-    "@angular/forms": "2.4.3",
-    "@angular/http": "2.4.3",
-    "@angular/platform-browser": "2.4.3",
-    "@angular/platform-browser-dynamic": "2.4.3",
-    "@angular/router": "3.4.3",
-    "angular2-jwt": "^0.1.28",
-    "nativescript-angular": "1.4.0",
-    "nativescript-localstorage": "^1.1.0",
-    "nativescript-theme-core": "~1.0.2",
-    "reflect-metadata": "~0.1.8",
-    "rxjs": "~5.0.1",
-    "tns-core-modules": "2.5.0"
-  },
-  "devDependencies": {
-    "babel-traverse": "6.4.5",
-    "babel-types": "6.4.5",
-    "babylon": "6.4.5",
-    "lazy": "1.0.11",
-    "nativescript-dev-android-snapshot": "^0.*.*",
-    "nativescript-dev-typescript": "^0.3.5",
-    "typescript": "~2.1.0",
-    "zone.js": "~0.7.2"
-  }
 }
