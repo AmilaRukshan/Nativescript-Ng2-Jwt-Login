@@ -1,2 +1,2 @@
 # Nativescript-Ng2-Jwt-Login
-Nativescript Authorization using angular2-jwt.
+Nativescript Authentication using angular2-jwt.
