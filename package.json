@@ -1,6 +1,5 @@
 {
     "name": "nativescript-ng2-jwt-login",
-    "version": "0.1",
     "description": "Nativescript Authentication using angular2-jwt.",
     "license": "SEE LICENSE IN LICENSE File",
     "author": "Amila Rukshan <amilarukshan11@gmail.com>",
